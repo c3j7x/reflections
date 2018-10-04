@@ -1,0 +1,4 @@
+git clone commitID
+git log
+git checkout commitID
+git diff (--stat) oldcommitID newcommitID
