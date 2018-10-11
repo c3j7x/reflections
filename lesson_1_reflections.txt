@@ -1,4 +1,4 @@
-git clone commitID
+git clone url
 git log
 git checkout commitID
 git diff (--stat) oldcommitID newcommitID

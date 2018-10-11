@@ -1,4 +1,20 @@
-git init
-git status
-git add filename
-git rm
+git init (initialize the directory, create a file called .git, prepare to make a repository)
+git status (show the current status of the repository)
+git add filename (add a file to staging area)
+git commit (commit the change in the staging area, create a commit)
+git diff (show the diff between work directory and staging area)
+git diff --staged (show the diff between staging area and the most recent commit)
+git branch (show the branch info of the current repository, the working branch will have a *)
+git branch branchname (create a new branch)
+git checkout branchname (set the current commitment as a branch named branchname)
+git checkout -b branchname (equivalent of the previous two command)
+git log --graph --oneline branchname1 branchname2 branchname3... (visualize the history of branches of interest)
+git checkout branch1; git merge branch1 branch2
+git merge --abort (restore your files to their state before you started the merge)
+git show commit id (compare a commit to its parent)
+
+
+
+git rm filename ()
+git rm --cached filename
+git reset filename
